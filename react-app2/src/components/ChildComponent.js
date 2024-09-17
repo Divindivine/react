@@ -1,14 +1,14 @@
-import React from "react";
+// import React from "react";
 
-function ChildComponent(props) {
-  return (
-    <div>
-      <button onClick={() => props.greetHandler("child")}>Greet Parent</button>
-    </div>
-  );
-}
+// function ChildComponent(props) {
+//   return (
+//     <div>
+//       <button onClick={() => props.greetHandler("child")}>Greet Parent</button>
+//     </div>
+//   );
+// }
 
-export default ChildComponent;
+// export default ChildComponent;
 
 
-1
+// 1
