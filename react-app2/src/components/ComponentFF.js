@@ -1,12 +1,22 @@
 import React from "react";
-import { UserContext } from "../App";
+import { UserContext, ChannelContext } from "../App";
 
 function ComponentFF() {
   return (
     <div>
       <UserContext.Consumer>
         {(user) => {
-          return <div>User context value {user}</div>;
+          return (
+            <ChannelContext.Consumer>
+              {(channel) => {
+                return (
+                  <div>
+                    User context value {user}, channel context value {channel}
+                  </div>
+                );
+              }}
+            </ChannelContext.Consumer>
+          );
         }}
       </UserContext.Consumer>
     </div>
@@ -14,5 +24,3 @@ function ComponentFF() {
 }
 
 export default ComponentFF;
-
-
