@@ -170,15 +170,24 @@ import React from "react";
 // import FocusInputOne from "./components/FocusInputOne";
 // import ClassTImer from "./components/ClassTImer";
 // import HookTimer from "./components/HookTimer";
-import DocTitleOne from "./components/DocTitleOne";
+// import DocTitleOne from "./components/DocTitleOne";
 // import CounterA from "./components/CounterA";
  import "./App.css";
+// import DocTitleTwo from "./components/DocTitleTwo";
+// import CounterOneOne from "./components/CounterOneOne";
+// import CounterTwoTwo from "./components/CounterTwoTwo";
+// import UserForm from "./components/UserForm";
+// import { UseState } from "./components/UseState/UseState";
+// import { UseReducer } from "./components/UseReduder/UseReducer";
+// import { ObjectUseState } from "./components/ImmutabelState/ObjectUseState";
+// import ArrayUseState from "./components/ImmutabelState/ArrayUseState";
+// import { Parent } from "./components/Paraent Child/Parent";
 // import DataFetchingOne from "./components/DataFetchingOne";
 // import DataFetchingTwo from "./components/DataFetchingTwo";
 // import ParentComponentOne from "./components/ParentComponentOne";
 // import ComponentAAA from "./components/ComponentAAA";
 // import ComponentBBB from "./components/ComponentBBB";
-// import ComponentCCC from "./components/ComponentCCC";
+// import ComponentCCC from "./components/ComponentCCC";``````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
 
 // export const CountContext = React.createContext();
 
@@ -195,6 +204,8 @@ import DocTitleOne from "./components/DocTitleOne";
 //       return state;
 //   }
 // };
+// import { ParentOne } from "./components/Optimiation/ParentOne";
+import { ParentFour } from "./components/Incorrect Optimizations/ParentFour";
 
 function App() {
   //   const [count, dispatch] = useReducer(reducer, initialState);
@@ -217,8 +228,25 @@ function App() {
     // <FocusInputOne />
     // <ClassTImer />
     // <HookTimer />
-    <DocTitleOne />
+    <div>
+    {/* <DocTitleOne />
+    <DocTitleTwo /> */}
+    {/* <CounterOneOne />
+    <CounterTwoTwo /> */}
+    {/* <UserForm /> */}
+    {/* <UseState /> */}
+    {/* <UseReducer /> */}
+    {/* <ArrayUseState /> */}
+    {/* <Parent /> */}
+    {/* <ParentOne /> */}
+    <ParentFour />
+    </div>
   );
 }
 
 export default App;
+
+
+
+
+
