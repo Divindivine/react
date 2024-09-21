@@ -172,7 +172,7 @@ import React from "react";
 // import HookTimer from "./components/HookTimer";
 // import DocTitleOne from "./components/DocTitleOne";
 // import CounterA from "./components/CounterA";
- import "./App.css";
+import "./App.css";
 // import DocTitleTwo from "./components/DocTitleTwo";
 // import CounterOneOne from "./components/CounterOneOne";
 // import CounterTwoTwo from "./components/CounterTwoTwo";
@@ -206,11 +206,12 @@ import React from "react";
 // };
 // import { ParentOne } from "./components/Optimiation/ParentOne";
 import { ParentFour } from "./components/Incorrect Optimizations/ParentFour";
+import { ContextParent } from "./components/Context/ContextParent";
+import { ChildA } from "./components/Context/ContextChildren";
 
 function App() {
   //   const [count, dispatch] = useReducer(reducer, initialState);
   return (
-    
     // <CountContext.Provider
     //   value={{ countState: count, countDispatch: dispatch }}
     // >
@@ -229,24 +230,22 @@ function App() {
     // <ClassTImer />
     // <HookTimer />
     <div>
-    {/* <DocTitleOne />
+      {/* <DocTitleOne />
     <DocTitleTwo /> */}
-    {/* <CounterOneOne />
+      {/* <CounterOneOne />
     <CounterTwoTwo /> */}
-    {/* <UserForm /> */}
-    {/* <UseState /> */}
-    {/* <UseReducer /> */}
-    {/* <ArrayUseState /> */}
-    {/* <Parent /> */}
-    {/* <ParentOne /> */}
-    <ParentFour />
+      {/* <UserForm /> */}
+      {/* <UseState /> */}
+      {/* <UseReducer /> */}
+      {/* <ArrayUseState /> */}
+      {/* <Parent /> */}
+      {/* <ParentOne /> */}
+      {/* <ParentFour /> */}
+      <ContextParent>
+        <ChildA />
+      </ContextParent>
     </div>
   );
 }
 
 export default App;
-
-
-
-
-
