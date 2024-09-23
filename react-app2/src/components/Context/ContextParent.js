@@ -15,5 +15,3 @@ export const ContextParent = ({ children }) => {
     </>
   );
 };
-
-//ads
