@@ -2,19 +2,15 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import List from "./list/List";
+import HomePage from "./Page/HomePage";
+import MyApp from "./components/MyApp";
 
 
 ReactDOM.render(
   // <React.StrictMode>
   //   <App />
   // </React.StrictMode>
-  <div className="app">
-    <Header />
-    <div className="app-body">
-      <List />
-    </div>
-    <Footer />
-  </div>,
+  <MyApp />,
   document.getElementById("root")
 );
+

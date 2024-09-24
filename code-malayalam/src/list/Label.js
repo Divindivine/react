@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Children } from "react";
 import "./Label.css";
 
 class Label extends React.Component {
@@ -8,11 +8,18 @@ class Label extends React.Component {
       ? { background: "green" }
       : { background: "orange" };
     return (
-      <span className="list-label-item" style={style}>
-        Label 1
+      <span
+        onClick={() => {
+          props.onAction(props.isActive ? "active" : "non-active");
+        }}
+        className="list-label-item"
+        style={style}
+      >
+        {props.isActive ? "Active" : "Non Active"}
       </span>
     );
   }
 }
 
 export default Label;
+
