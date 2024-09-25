@@ -2,6 +2,7 @@ import React from "react";
 import ListItem from "./ListItem";
 
 function SimpleList(props) {
+  console.log("Render SImple List")
   const { data, onAction, onLabelClick } = props;
 
   return (
